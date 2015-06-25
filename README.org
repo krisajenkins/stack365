@@ -1,0 +1,9 @@
+* Replication of Stack Issue 365
+
+Platform: OSX 10.10.3
+
+- Clone this project.
+- Call =stack build=. Project builds successfully.
+- Edit =src/Message.hs=. Give =message= the incorrect type signature of =IO Int=.
+- Call =stack build=. Nothing happens.
+
