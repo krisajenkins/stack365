@@ -1,4 +1,4 @@
 module Message where
 
-message :: IO Int
+message :: IO ()
 message = putStrLn "Hello!"

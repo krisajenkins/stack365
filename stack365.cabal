@@ -23,6 +23,5 @@ executable stack365
                      , snap >= 0.13 && < 0.15
                      , snap-core >= 0.9 && < 1
                      , snap-cors >= 1.2 && < 2
-                     , snap-postgresql >= 0.1 && < 1.0
   hs-source-dirs:     src 
   default-language:    Haskell2010
