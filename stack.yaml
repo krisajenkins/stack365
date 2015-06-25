@@ -1,0 +1,11 @@
+packages:
+  - '.'
+  - location:
+      git: git@github.com:krisajenkins/snap-postgresql
+      commit: e0e3f0cd0f9eda27000e5abdc1fb5c9fc241dadf
+extra-deps:
+  - snap-cors-1.2.9
+resolver: lts-2.15
+flags:
+    snap-server:
+        openssl: true
